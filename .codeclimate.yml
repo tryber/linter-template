@@ -35,6 +35,7 @@ exclude_patterns:
   - "src/index.css"
   - "**/libs/*.css"
   - "**/libs/*.js"
+  - "**/node_modules/"
 plugins:
   csslint:
     enabled: true
